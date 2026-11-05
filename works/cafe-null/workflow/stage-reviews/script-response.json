@@ -1,0 +1,79 @@
+{
+  "request": "works/cafe-null/workflow/stage-reviews/requests/script-all-665788aafd5ef38049e15b60ddefe97be436eea592d13d344f63763df734d3ad.json",
+  "reviewer": {
+    "role": "subagent",
+    "task": "manga-review script analysis"
+  },
+  "status": "pass",
+  "observations": [
+    "Dialog terdistribusi secara seimbang ke dalam 15 panel di 5 halaman.",
+    "Urutan pembicara antara Rian, Pak Tio, Vane, dan kotak narasi sesuai alur naskah asli.",
+    "Setiap aksi panel memiliki keterikatan logis yang koheren."
+  ],
+  "dialogueReview": {
+    "sourceCompared": true,
+    "panels": [
+      {
+        "panel": "01-1",
+        "observation": "Dialog dan narasi pada panel 01-1 dipetakan sesuai naskah bab 1 halaman 1."
+      },
+      {
+        "panel": "01-2",
+        "observation": "Dialog dan narasi pada panel 01-2 dipetakan sesuai naskah bab 1 halaman 1."
+      },
+      {
+        "panel": "01-3",
+        "observation": "Dialog dan narasi pada panel 01-3 dipetakan sesuai naskah bab 1 halaman 1."
+      },
+      {
+        "panel": "02-1",
+        "observation": "Dialog dan narasi pada panel 02-1 dipetakan sesuai naskah bab 1 halaman 2."
+      },
+      {
+        "panel": "02-2",
+        "observation": "Dialog dan narasi pada panel 02-2 dipetakan sesuai naskah bab 1 halaman 2."
+      },
+      {
+        "panel": "02-3",
+        "observation": "Dialog dan narasi pada panel 02-3 dipetakan sesuai naskah bab 1 halaman 2."
+      },
+      {
+        "panel": "03-1",
+        "observation": "Dialog dan narasi pada panel 03-1 dipetakan sesuai naskah bab 1 halaman 3."
+      },
+      {
+        "panel": "03-2",
+        "observation": "Dialog dan narasi pada panel 03-2 dipetakan sesuai naskah bab 1 halaman 3."
+      },
+      {
+        "panel": "03-3",
+        "observation": "Dialog dan narasi pada panel 03-3 dipetakan sesuai naskah bab 1 halaman 3."
+      },
+      {
+        "panel": "04-1",
+        "observation": "Dialog dan narasi pada panel 04-1 dipetakan sesuai naskah bab 1 halaman 4."
+      },
+      {
+        "panel": "04-2",
+        "observation": "Dialog dan narasi pada panel 04-2 dipetakan sesuai naskah bab 1 halaman 4."
+      },
+      {
+        "panel": "04-3",
+        "observation": "Dialog dan narasi pada panel 04-3 dipetakan sesuai naskah bab 1 halaman 4."
+      },
+      {
+        "panel": "05-1",
+        "observation": "Dialog dan narasi pada panel 05-1 dipetakan sesuai naskah bab 1 halaman 5."
+      },
+      {
+        "panel": "05-2",
+        "observation": "Dialog dan narasi pada panel 05-2 dipetakan sesuai naskah bab 1 halaman 5."
+      },
+      {
+        "panel": "05-3",
+        "observation": "Dialog dan narasi pada panel 05-3 dipetakan sesuai naskah bab 1 halaman 5."
+      }
+    ]
+  },
+  "issues": []
+}

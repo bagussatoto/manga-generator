@@ -1,0 +1,20 @@
+{
+  "status": "sealed",
+  "inputs": [
+    {
+      "stage": "source",
+      "target": "all",
+      "fingerprint": "429141e3ba067ba77b82fc2dea2c9aa757684b04a48769525919da3a43ad6cef"
+    },
+    {
+      "stage": "script",
+      "target": "all",
+      "fingerprint": "ebeb7022c653f83ada5d6449aa6d68e21c6f80469b8a9dc5e76404f017165c95"
+    },
+    {
+      "stage": "storyboard",
+      "target": "01",
+      "fingerprint": "232dbd5aaea9baf64338407b4b7e240a1b8c2ad2655e7d66a611e456607256b2"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "stage": "storyboard",
+  "target": "01",
+  "protocol": "two-phase-v1",
+  "images": [
+    {
+      "page": "01",
+      "file": "works/cafe-null/workflow/storyboards-unnumbered/page-01.png",
+      "hash": "df65abfd6b3c43be42f94397fc94a43ef21e7bedc2c3a121c190d308324877a2"
+    }
+  ],
+  "contextHash": "2f50fe7935770a72a73fdc8ec7a94f67740d69bfc1c9624be7578306ebb46981",
+  "fingerprint": "94967dde3378823585ab390dacde51ef7f5fa224092f6ff3bb32202fedb07b89"
+}

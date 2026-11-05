@@ -1,0 +1,231 @@
+{
+  "base": {
+    "stage": "storyboard",
+    "target": "01",
+    "sourceFile": "works/janji-menara/source/original.txt",
+    "readingPolicy": "unnumbered-proximity-and-scene-transitions-v2",
+    "requiredTransitions": [
+      {
+        "from": "01-1",
+        "to": "01-2"
+      }
+    ],
+    "script": {
+      "title": "Janji di Bawah Menara Jam",
+      "cast": {
+        "reno": {
+          "name": "Reno",
+          "description": "Pria muda dengan rambut acak tertiup angin, tatapan tenang namun penuh penantian",
+          "faceDesign": {
+            "traits": [
+              "Mata tajam dengan sorot tenang dan tegas",
+              "Alis lurus agak tebal",
+              "Garis rahang tegas dengan hidung mancung"
+            ],
+            "reference": "works/janji-menara/assets/characters.png",
+            "settingBasis": "Pria berumur awal 20-an, terlihat dewasa dari usianya"
+          }
+        },
+        "maya": {
+          "name": "Maya",
+          "description": "Wanita muda dengan rambut sebahu tergerai, raut wajah haru dan bersungguh-sungguh",
+          "faceDesign": {
+            "traits": [
+              "Mata bulat dengan bulu mata lembut, pandangan hangat",
+              "Alis tipis melengkung anggun",
+              "Dagu runcing lembut dengan ekspresi haru"
+            ],
+            "reference": "works/janji-menara/assets/characters.png",
+            "settingBasis": "Wanita berumur awal 20-an, pembawaan tenang dan setia"
+          }
+        },
+        "narration": {
+          "kind": "caption",
+          "name": "地の文"
+        }
+      },
+      "style": "Monochrome hand-inked manga, varied line weight, restrained expression, sparse backgrounds, no photorealism or surface microtexture.",
+      "sections": {
+        "opening": {
+          "summary": "Kabut menyelimuti kota tua saat senja di bawah menara jam kuno.",
+          "location": "Di bawah menara jam kota tua berkabut",
+          "costumes": {
+            "reno": "Mantel wol panjang berwarna gelap, kerah tegak",
+            "maya": "Mantel kain tebal dengan syal, menggenggam liontin perak"
+          },
+          "objects": {
+            "pendant": "Liontin perak peninggalan lima tahun lalu"
+          }
+        }
+      },
+      "pages": [
+        {
+          "id": "01",
+          "section": "opening",
+          "purpose": "Mempertemukan kembali Reno dan Maya di bawah menara jam setelah 5 tahun",
+          "expectation": "Pembaca merasakan kelegaan dan kekuatan janji mereka berdua",
+          "panels": [
+            {
+              "id": "01-1",
+              "order": 1,
+              "role": "提示",
+              "beat": "状況",
+              "rect": [
+                24,
+                24,
+                976,
+                650
+              ],
+              "scene": "原作に合わせて場面を指定する",
+              "production": {
+                "moment": "Reno menatap Maya yang mendekat sambil menyapanya dengan senyum tipis lega",
+                "before": "Menunggu sendiri dalam diam di bawah menara jam",
+                "after": "Tetap memperhatikan langkah Maya",
+                "hands": {
+                  "reno": {
+                    "left": "Dimasukkan ke dalam saku mantel",
+                    "right": "Tergantung santai di samping mantel"
+                  }
+                },
+                "props": []
+              },
+              "speakers": {
+                "reno": {
+                  "anchor": [
+                    350,
+                    360
+                  ],
+                  "face": [
+                    290,
+                    260,
+                    120,
+                    160
+                  ]
+                }
+              },
+              "dialogue": [
+                {
+                  "speaker": "reno",
+                  "text": "Akhirnya kau datang juga, Maya.",
+                  "side": "right"
+                }
+              ]
+            },
+            {
+              "id": "01-2",
+              "order": 2,
+              "role": "反応",
+              "beat": "反応",
+              "rect": [
+                24,
+                698,
+                976,
+                650
+              ],
+              "scene": "相手の反応を描く",
+              "production": {
+                "moment": "Maya menegaskan janjinya sambil memperlihatkan liontin perak di tangannya",
+                "before": "Melangkah pelan menembus kabut",
+                "after": "Berdiri tegap menatap Reno",
+                "hands": {
+                  "maya": {
+                    "left": "Memegang tali syal",
+                    "right": "Menggenggam liontin perak"
+                  }
+                },
+                "props": [
+                  {
+                    "id": "liontin",
+                    "before": "Tersimpan di balik saku",
+                    "during": "Digenggam di tangan kanan",
+                    "after": "Tetap dipegang di depan dada",
+                    "heldBy": "maya.right"
+                  }
+                ]
+              },
+              "speakers": {
+                "maya": {
+                  "anchor": [
+                    350,
+                    1034
+                  ],
+                  "face": [
+                    290,
+                    934,
+                    120,
+                    160
+                  ]
+                }
+              },
+              "dialogue": [
+                {
+                  "speaker": "maya",
+                  "text": "Aku tidak akan melupakan janji yang kita buat lima tahun lalu.",
+                  "side": "right"
+                }
+              ]
+            }
+          ],
+          "role": "反応",
+          "beat": "Respon dan konfirmasi janji",
+          "scene": "Maya berhenti melangkah, mengangkat sedikit liontin perak di tangannya dengan tatapan tulus.",
+          "speakers": {
+            "maya": {
+              "anchor": [
+                350,
+                1034
+              ],
+              "face": [
+                290,
+                934,
+                120,
+                160
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "boundaryContext": [],
+    "productionMode": "quality",
+    "readingProtocol": "two-phase-v1",
+    "firstReading": {
+      "fingerprint": "6ef33636d03ecd80019e4c0d9e40f0a7697e6b0f4aa7d9158484333da7093060",
+      "reviewer": {
+        "role": "subagent",
+        "task": "manga-review first-reading inspection"
+      },
+      "pages": [
+        {
+          "page": "01",
+          "scan": "Mata pembaca secara natural membaca panel atas terlebih dahulu (wajah Reno di sisi kiri, balon teks di sisi kanan: Akhirnya kau datang juga, Maya), lalu bergerak ke panel bawah (wajah Maya di sisi kiri, balon teks di sisi kanan: Aku tidak akan melupakan janji yang kita buat lima tahun lalu).",
+          "observation": "Tata letak 2 baris panel atas-ke-bawah sangat tegas dan tidak ambigu. Balon kata berada di sisi kanan dengan jarak yang cukup dari wajah karakter, sehingga tidak terjadi tumpang tindih visual."
+        }
+      ]
+    },
+    "firstReadingHash": "5700bb08c25be7786b2f56c3616dfb8faf68bdb99ab29beb8706852ff8ae6c8e"
+  },
+  "files": [
+    "works/janji-menara/source/original.txt",
+    "works/janji-menara/assets/characters.png",
+    "works/janji-menara/workflow/storyboards/page-01.svg",
+    "works/janji-menara/workflow/storyboards-unnumbered/page-01.svg",
+    "works/janji-menara/workflow/reading-flow/page-01.svg",
+    "works/janji-menara/workflow/reading-flow/page-01.json",
+    "works/janji-menara/workflow/stage-reviews/first-reading/storyboard-01-6ef33636d03ecd80019e4c0d9e40f0a7697e6b0f4aa7d9158484333da7093060.json",
+    "works/janji-menara/workflow/storyboards-unnumbered/page-01.png"
+  ],
+  "optionalFiles": [],
+  "configFile": "works/janji-menara/workflow.json",
+  "entries": {
+    "works/janji-menara/source/original.txt": "d1f0c713f1dd7c9dda3464a0f4ead81c73def6bfa3bae636998e7d435453273c",
+    "works/janji-menara/assets/characters.png": "218a73eb2725ef855b0994520e8ee7064859faee3051d44780677b9a94d3e6ef",
+    "works/janji-menara/workflow/storyboards/page-01.svg": "6fc47953423977cb339fa5890b74b4fccc361077a7201ee909ca5b90a7f2d53a",
+    "works/janji-menara/workflow/storyboards-unnumbered/page-01.svg": "4c591b4f393857c26742ef58f762f8c947c0e3ca2ea1a43583b68c3ab5ac6d31",
+    "works/janji-menara/workflow/reading-flow/page-01.svg": "3ad772577054bcb9a98c9015101ee605f3b01c31b6083945574476f8d19becd0",
+    "works/janji-menara/workflow/reading-flow/page-01.json": "f4016865914e5c36111ed5b3e411845881fe399dd5ab816924e03403f0139c5d",
+    "works/janji-menara/workflow/stage-reviews/first-reading/storyboard-01-6ef33636d03ecd80019e4c0d9e40f0a7697e6b0f4aa7d9158484333da7093060.json": "5700bb08c25be7786b2f56c3616dfb8faf68bdb99ab29beb8706852ff8ae6c8e",
+    "works/janji-menara/workflow/storyboards-unnumbered/page-01.png": "6ddb68d3fd9a97a07774e285077bc365016d60bd63e459051ab25585e4d55056"
+  },
+  "fingerprint": "232dbd5aaea9baf64338407b4b7e240a1b8c2ad2655e7d66a611e456607256b2"
+}

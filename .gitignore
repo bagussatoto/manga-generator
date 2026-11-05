@@ -16,6 +16,8 @@ tmp/
 !/works/sample/source/
 /works/sample/source/*
 !/works/sample/source/original.txt
+!/works/janji-menara/
+!/works/cafe-null/
 /collections/
 /releases/
 /.manga-history/

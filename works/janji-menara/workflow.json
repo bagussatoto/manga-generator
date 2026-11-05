@@ -1,0 +1,236 @@
+{
+  "productionMode": "quality",
+  "reviewPolicy": {
+    "version": 3
+  },
+  "version": 8,
+  "quality": {
+    "required": true,
+    "drawing": [
+      "Use clear silhouettes and deliberate variation between outer contours and interior lines.",
+      "Group hair into readable masses; use only folds that explain the pose.",
+      "Make joint structure, grip, contact and object occlusion legible. Repair interacting hands and held objects together.",
+      "Use white space in close shots and a few location contours in wide shots."
+    ],
+    "avoid": [
+      "Uniform microdetail, glossy gradients, dense decorative hatching, random grain and redundant highlights."
+    ]
+  },
+  "renderMode": "panels",
+  "productionPreflight": {
+    "required": true
+  },
+  "narrativeDesign": {
+    "version": 1,
+    "direction": "right-to-left, top-to-bottom",
+    "rules": [
+      "one beat per panel",
+      "speech groups and faces are planned together",
+      "scene and time boundaries receive a visual or caption anchor",
+      "page-end question and next-page answer are reviewed, not forced"
+    ]
+  },
+  "sections": {
+    "opening": {
+      "summary": "Kabut menyelimuti kota tua saat senja di bawah menara jam kuno.",
+      "location": "Di bawah menara jam kota tua berkabut",
+      "costumes": {
+        "reno": "Mantel wol panjang berwarna gelap, kerah tegak",
+        "maya": "Mantel kain tebal dengan syal, menggenggam liontin perak"
+      },
+      "objects": {
+        "pendant": "Liontin perak peninggalan lima tahun lalu"
+      }
+    }
+  },
+  "assetSources": {},
+  "title": "Janji di Bawah Menara Jam",
+  "author": "",
+  "sourceFile": "works/janji-menara/source/original.txt",
+  "style": "Monochrome hand-inked manga, varied line weight, restrained expression, sparse backgrounds, no photorealism or surface microtexture.",
+  "cast": {
+    "reno": {
+      "name": "Reno",
+      "description": "Pria muda dengan rambut acak tertiup angin, tatapan tenang namun penuh penantian",
+      "faceDesign": {
+        "traits": [
+          "Mata tajam dengan sorot tenang dan tegas",
+          "Alis lurus agak tebal",
+          "Garis rahang tegas dengan hidung mancung"
+        ],
+        "reference": "works/janji-menara/assets/characters.png",
+        "settingBasis": "Pria berumur awal 20-an, terlihat dewasa dari usianya"
+      }
+    },
+    "maya": {
+      "name": "Maya",
+      "description": "Wanita muda dengan rambut sebahu tergerai, raut wajah haru dan bersungguh-sungguh",
+      "faceDesign": {
+        "traits": [
+          "Mata bulat dengan bulu mata lembut, pandangan hangat",
+          "Alis tipis melengkung anggun",
+          "Dagu runcing lembut dengan ekspresi haru"
+        ],
+        "reference": "works/janji-menara/assets/characters.png",
+        "settingBasis": "Wanita berumur awal 20-an, pembawaan tenang dan setia"
+      }
+    },
+    "narration": {
+      "kind": "caption",
+      "name": "地の文"
+    }
+  },
+  "references": [
+    "works/janji-menara/assets/characters.png"
+  ],
+  "assetDir": "works/janji-menara/assets",
+  "workflowDir": "works/janji-menara/workflow",
+  "outputDir": "works/janji-menara/output",
+  "pages": [
+    {
+      "id": "01",
+      "section": "opening",
+      "purpose": "Mempertemukan kembali Reno dan Maya di bawah menara jam setelah 5 tahun",
+      "expectation": "Pembaca merasakan kelegaan dan kekuatan janji mereka berdua",
+      "panels": [
+        {
+          "id": "01-1",
+          "order": 1,
+          "role": "提示",
+          "beat": "状況",
+          "rect": [
+            24,
+            24,
+            976,
+            650
+          ],
+          "scene": "原作に合わせて場面を指定する",
+          "production": {
+            "moment": "Reno menatap Maya yang mendekat sambil menyapanya dengan senyum tipis lega",
+            "before": "Menunggu sendiri dalam diam di bawah menara jam",
+            "after": "Tetap memperhatikan langkah Maya",
+            "hands": {
+              "reno": {
+                "left": "Dimasukkan ke dalam saku mantel",
+                "right": "Tergantung santai di samping mantel"
+              }
+            },
+            "props": []
+          },
+          "speakers": {
+            "reno": {
+              "anchor": [
+                350,
+                360
+              ],
+              "face": [
+                290,
+                260,
+                120,
+                160
+              ]
+            }
+          },
+          "dialogue": [
+            {
+              "speaker": "reno",
+              "text": "Akhirnya kau datang juga, Maya.",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "id": "01-2",
+          "order": 2,
+          "role": "反応",
+          "beat": "反応",
+          "rect": [
+            24,
+            698,
+            976,
+            650
+          ],
+          "scene": "相手の反応を描く",
+          "production": {
+            "moment": "Maya menegaskan janjinya sambil memperlihatkan liontin perak di tangannya",
+            "before": "Melangkah pelan menembus kabut",
+            "after": "Berdiri tegap menatap Reno",
+            "hands": {
+              "maya": {
+                "left": "Memegang tali syal",
+                "right": "Menggenggam liontin perak"
+              }
+            },
+            "props": [
+              {
+                "id": "liontin",
+                "before": "Tersimpan di balik saku",
+                "during": "Digenggam di tangan kanan",
+                "after": "Tetap dipegang di depan dada",
+                "heldBy": "maya.right"
+              }
+            ]
+          },
+          "speakers": {
+            "maya": {
+              "anchor": [
+                350,
+                1034
+              ],
+              "face": [
+                290,
+                934,
+                120,
+                160
+              ]
+            }
+          },
+          "dialogue": [
+            {
+              "speaker": "maya",
+              "text": "Aku tidak akan melupakan janji yang kita buat lima tahun lalu.",
+              "side": "right"
+            }
+          ]
+        }
+      ],
+      "role": "反応",
+      "beat": "Respon dan konfirmasi janji",
+      "scene": "Maya berhenti melangkah, mengangkat sedikit liontin perak di tangannya dengan tatapan tulus.",
+      "speakers": {
+        "maya": {
+          "anchor": [
+            350,
+            1034
+          ],
+          "face": [
+            290,
+            934,
+            120,
+            160
+          ]
+        }
+      }
+    }
+  ],
+  "promptPolicy": {
+    "version": 2
+  },
+  "productionReview": {
+    "designSealRequired": true,
+    "readingProtocol": "two-phase-v1",
+    "required": true,
+    "reviewer": "subagent",
+    "stages": [
+      "source",
+      "script",
+      "storyboard",
+      "artwork",
+      "lettering",
+      "final"
+    ]
+  },
+  "referenceRoles": {
+    "works/janji-menara/assets/characters.png": "Canonical face geometry and drawing method; define three distinguishing face traits for each actor."
+  }
+}

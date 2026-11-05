@@ -1,0 +1,136 @@
+{
+  "base": {
+    "stage": "script",
+    "target": "all",
+    "sourceFile": "works/janji-menara/source/original.txt",
+    "dialoguePolicy": "source-dialogue-dependencies-v1",
+    "dialogueInstructions": "Compare every panel with the full original: retain the question before its answer, the referent before a pronoun, the apology before forgiveness, and the premise before a joke. Check speaker voice, emotional causality and text merged across intervening turns. Do not repair missing context from scene instructions alone. For pass return dialogueReview:{sourceCompared:true,panels:[{panel:panelId,observation:specific source comparison and dialogue dependency evidence}]} for every target panel, including silent panels. Unresolved or image-dependent issues cannot be certified from script alone.",
+    "script": {
+      "title": "Janji di Bawah Menara Jam",
+      "cast": {
+        "reno": {
+          "name": "Reno",
+          "description": "Pria muda dengan rambut acak tertiup angin, tatapan tenang namun penuh penantian",
+          "faceDesign": {
+            "traits": [
+              "Mata tajam dengan sorot tenang dan tegas",
+              "Alis lurus agak tebal",
+              "Garis rahang tegas dengan hidung mancung"
+            ],
+            "reference": "works/janji-menara/assets/characters.png",
+            "settingBasis": "Pria berumur awal 20-an, terlihat dewasa dari usianya"
+          }
+        },
+        "maya": {
+          "name": "Maya",
+          "description": "Wanita muda dengan rambut sebahu tergerai, raut wajah haru dan bersungguh-sungguh",
+          "faceDesign": {
+            "traits": [
+              "Mata bulat dengan bulu mata lembut, pandangan hangat",
+              "Alis tipis melengkung anggun",
+              "Dagu runcing lembut dengan ekspresi haru"
+            ],
+            "reference": "works/janji-menara/assets/characters.png",
+            "settingBasis": "Wanita berumur awal 20-an, pembawaan tenang dan setia"
+          }
+        },
+        "narration": {
+          "kind": "caption",
+          "name": "地の文"
+        }
+      },
+      "style": "Monochrome hand-inked manga, varied line weight, restrained expression, sparse backgrounds, no photorealism or surface microtexture.",
+      "sections": {
+        "opening": {
+          "summary": "Kabut menyelimuti kota tua saat senja di bawah menara jam kuno.",
+          "location": "Di bawah menara jam kota tua berkabut",
+          "costumes": {
+            "reno": "Mantel wol panjang berwarna gelap, kerah tegak",
+            "maya": "Mantel kain tebal dengan syal, menggenggam liontin perak"
+          },
+          "objects": {
+            "pendant": "Liontin perak peninggalan lima tahun lalu"
+          }
+        }
+      },
+      "pages": [
+        {
+          "id": "01",
+          "purpose": "Mempertemukan kembali Reno dan Maya di bawah menara jam setelah 5 tahun",
+          "expectation": "Pembaca merasakan kelegaan dan kekuatan janji mereka berdua",
+          "section": "opening",
+          "panels": [
+            {
+              "id": "01-1",
+              "scene": "原作に合わせて場面を指定する",
+              "role": "提示",
+              "beat": "状況",
+              "production": {
+                "moment": "Reno menatap Maya yang mendekat sambil menyapanya dengan senyum tipis lega",
+                "before": "Menunggu sendiri dalam diam di bawah menara jam",
+                "after": "Tetap memperhatikan langkah Maya",
+                "hands": {
+                  "reno": {
+                    "left": "Dimasukkan ke dalam saku mantel",
+                    "right": "Tergantung santai di samping mantel"
+                  }
+                },
+                "props": []
+              },
+              "dialogue": [
+                {
+                  "speaker": "reno",
+                  "text": "Akhirnya kau datang juga, Maya."
+                }
+              ]
+            },
+            {
+              "id": "01-2",
+              "scene": "相手の反応を描く",
+              "role": "反応",
+              "beat": "反応",
+              "production": {
+                "moment": "Maya menegaskan janjinya sambil memperlihatkan liontin perak di tangannya",
+                "before": "Melangkah pelan menembus kabut",
+                "after": "Berdiri tegap menatap Reno",
+                "hands": {
+                  "maya": {
+                    "left": "Memegang tali syal",
+                    "right": "Menggenggam liontin perak"
+                  }
+                },
+                "props": [
+                  {
+                    "id": "liontin",
+                    "before": "Tersimpan di balik saku",
+                    "during": "Digenggam di tangan kanan",
+                    "after": "Tetap dipegang di depan dada",
+                    "heldBy": "maya.right"
+                  }
+                ]
+              },
+              "dialogue": [
+                {
+                  "speaker": "maya",
+                  "text": "Aku tidak akan melupakan janji yang kita buat lima tahun lalu."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "productionMode": "quality"
+  },
+  "files": [
+    "works/janji-menara/source/original.txt",
+    "works/janji-menara/workflow/source-coverage.json"
+  ],
+  "optionalFiles": [],
+  "configFile": "works/janji-menara/workflow.json",
+  "entries": {
+    "works/janji-menara/source/original.txt": "d1f0c713f1dd7c9dda3464a0f4ead81c73def6bfa3bae636998e7d435453273c",
+    "works/janji-menara/workflow/source-coverage.json": "da6e4a9564da38efcce7d3d6a61fd4d697a2558c53cb4314c8fc70d7632018a1"
+  },
+  "fingerprint": "ebeb7022c653f83ada5d6449aa6d68e21c6f80469b8a9dc5e76404f017165c95"
+}

@@ -1,0 +1,17 @@
+{
+  "base": {
+    "stage": "source",
+    "target": "all",
+    "sourceFile": "works/janji-menara/source/original.txt",
+    "productionMode": "quality"
+  },
+  "files": [
+    "works/janji-menara/source/original.txt"
+  ],
+  "optionalFiles": [],
+  "configFile": "works/janji-menara/workflow.json",
+  "entries": {
+    "works/janji-menara/source/original.txt": "d1f0c713f1dd7c9dda3464a0f4ead81c73def6bfa3bae636998e7d435453273c"
+  },
+  "fingerprint": "429141e3ba067ba77b82fc2dea2c9aa757684b04a48769525919da3a43ad6cef"
+}

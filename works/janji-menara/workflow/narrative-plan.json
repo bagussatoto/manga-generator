@@ -1,0 +1,124 @@
+{
+  "version": 2,
+  "status": "planned-not-visually-reviewed",
+  "guidance": {
+    "version": 1,
+    "direction": "right-to-left, top-to-bottom",
+    "rules": [
+      "one beat per panel",
+      "speech groups and faces are planned together",
+      "scene and time boundaries receive a visual or caption anchor",
+      "page-end question and next-page answer are reviewed, not forced"
+    ]
+  },
+  "pages": [
+    {
+      "page": "01",
+      "feeling": "Mempertemukan kembali Reno dan Maya di bawah menara jam setelah 5 tahun",
+      "questionForNextPage": "Pembaca merasakan kelegaan dan kekuatan janji mereka berdua",
+      "intent": {
+        "emotion": "Mempertemukan kembali Reno dan Maya di bawah menara jam setelah 5 tahun",
+        "revealOrder": null,
+        "peakPanel": null,
+        "turnQuestion": "Pembaca merasakan kelegaan dan kekuatan janji mereka berdua",
+        "turnAnswer": null
+      },
+      "showcase": null,
+      "diagnostics": {
+        "showcaseExists": true,
+        "areaRange": [
+          634400,
+          634400
+        ],
+        "strengthsEqual": true
+      },
+      "panels": [
+        {
+          "id": "01-1",
+          "beat": "状況",
+          "area": 634400,
+          "strength": 1,
+          "showcase": false,
+          "information": null,
+          "pause": null,
+          "readingGroups": null,
+          "layoutRow": null
+        },
+        {
+          "id": "01-2",
+          "beat": "反応",
+          "area": 634400,
+          "strength": 1,
+          "showcase": false,
+          "information": null,
+          "pause": null,
+          "readingGroups": null,
+          "layoutRow": null
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": "01-1",
+      "to": "01-2",
+      "pageBoundary": false,
+      "layoutBoundary": false,
+      "kind": "continuation",
+      "before": {
+        "section": "opening",
+        "setting": {
+          "summary": "Kabut menyelimuti kota tua saat senja di bawah menara jam kuno.",
+          "location": "Di bawah menara jam kota tua berkabut",
+          "costumes": {
+            "reno": "Mantel wol panjang berwarna gelap, kerah tegak",
+            "maya": "Mantel kain tebal dengan syal, menggenggam liontin perak"
+          },
+          "objects": {
+            "pendant": "Liontin perak peninggalan lima tahun lalu"
+          }
+        },
+        "scene": "原作に合わせて場面を指定する"
+      },
+      "after": {
+        "section": "opening",
+        "setting": {
+          "summary": "Kabut menyelimuti kota tua saat senja di bawah menara jam kuno.",
+          "location": "Di bawah menara jam kota tua berkabut",
+          "costumes": {
+            "reno": "Mantel wol panjang berwarna gelap, kerah tegak",
+            "maya": "Mantel kain tebal dengan syal, menggenggam liontin perak"
+          },
+          "objects": {
+            "pendant": "Liontin perak peninggalan lima tahun lalu"
+          }
+        },
+        "scene": "相手の反応を描く"
+      },
+      "ledger": {
+        "timeBefore": null,
+        "timeAfter": null,
+        "locationBefore": "Di bawah menara jam kota tua berkabut",
+        "locationAfter": "Di bawah menara jam kota tua berkabut",
+        "readerMustKnow": null,
+        "anchor": null,
+        "anchorEvidencePanel": "01-2",
+        "axisBefore": null,
+        "axisAfter": null,
+        "resetCue": null,
+        "retainedObjects": [
+          "pendant"
+        ],
+        "changedObjects": [],
+        "actionBefore": null,
+        "actionAfter": null,
+        "sourceBasis": null,
+        "supplementBasis": null
+      },
+      "bridge": null,
+      "settingBasis": null,
+      "warnings": []
+    }
+  ],
+  "note": "研究メモを実装へ翻訳した計画台帳。強度・段境界・場面接続はレビュー候補であり、実際の読者の視線や面白さを機械的に保証しない。"
+}

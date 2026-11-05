@@ -1,0 +1,335 @@
+{
+  "cast": {
+    "rian": {
+      "name": "Rian",
+      "description": "Barista merangkap teknisi pemula, antusias terhadap sains/fiksi",
+      "faceDesign": {
+        "traits": [
+          "Mata berbinar antusias dengan sedikit lingkaran hitam lelah di bawah mata",
+          "Alis ekspresif agak berantakan",
+          "Rambut cokelat gelap acak-acakan (messy hair) membingkai wajah muda"
+        ],
+        "reference": "works/cafe-null/assets/characters.png",
+        "settingBasis": "Pria muda 22 tahun, perpaduan barista cekatan dan geek komputer"
+      }
+    },
+    "tio": {
+      "name": "Pak Tio",
+      "description": "Pemilik Café Null, pria paruh baya bijaksana dan berkepala dingin",
+      "faceDesign": {
+        "traits": [
+          "Mata teduh tenang dengan garis senyum ramah",
+          "Kumis tipis rapi di atas bibir",
+          "Rambut beruban di pelipis disisir rapi ke belakang"
+        ],
+        "reference": "works/cafe-null/assets/characters.png",
+        "settingBasis": "Pria paruh baya 50-an, mentor misterius yang paham rahasia antariksa"
+      }
+    },
+    "vane": {
+      "name": "Vane",
+      "description": "Pengelana kosmik elegan dari Nebula Orion yang mencari kehangatan kopi",
+      "faceDesign": {
+        "traits": [
+          "Fitur wajah tegas dan proporsional khas ras humanoid penjelajah",
+          "Mata tajam lelah namun berwibawa di balik HUD visor transparan",
+          "Dagu dan garis pipi ramping aristokratis"
+        ],
+        "reference": "works/cafe-null/assets/characters.png",
+        "settingBasis": "Kapten pengelana kosmik melintasi dimensi waktu"
+      }
+    },
+    "narration": {
+      "kind": "caption",
+      "name": "Narasi"
+    }
+  },
+  "sections": {
+    "cafe_interior": {
+      "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+      "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+      "costumes": {
+        "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+        "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+        "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+      },
+      "objects": {
+        "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+        "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+        "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+      }
+    }
+  },
+  "panels": [
+    {
+      "id": "01-1",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "01-2",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "01-3",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "02-1",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "02-2",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "02-3",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "03-1",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "03-2",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "03-3",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "04-1",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "04-2",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "04-3",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "05-1",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "05-2",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    },
+    {
+      "id": "05-3",
+      "section": "cafe_interior",
+      "state": {
+        "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+        "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+        "costumes": {
+          "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+          "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+          "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+        },
+        "objects": {
+          "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+          "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+          "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+        }
+      }
+    }
+  ]
+}

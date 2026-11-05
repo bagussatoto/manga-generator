@@ -1,0 +1,14 @@
+{
+  "request": "works/cafe-null/workflow/stage-reviews/requests/first-reading-94967dde3378823585ab390dacde51ef7f5fa224092f6ff3bb32202fedb07b89.json",
+  "reviewer": {
+    "role": "subagent",
+    "task": "manga-review first-reading"
+  },
+  "pages": [
+    {
+      "page": "01",
+      "scan": "Mata pembaca secara natural membaca panel atas 01-1, lalu ke tengah 01-2, kemudian ke bawah 01-3.",
+      "observation": "Tata letak 3 baris panel vertikal sangat teratur dengan balon kata di sisi kanan yang mudah dibaca."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "stage": "storyboard",
+  "target": "01",
+  "protocol": "two-phase-v1",
+  "images": [
+    {
+      "page": "01",
+      "file": "works/janji-menara/workflow/storyboards-unnumbered/page-01.png",
+      "hash": "6ddb68d3fd9a97a07774e285077bc365016d60bd63e459051ab25585e4d55056"
+    }
+  ],
+  "contextHash": "865892d2b3d1ec645dc2e09f25e46373d0b7115283076a0e3b123913738726b1",
+  "fingerprint": "6ef33636d03ecd80019e4c0d9e40f0a7697e6b0f4aa7d9158484333da7093060"
+}

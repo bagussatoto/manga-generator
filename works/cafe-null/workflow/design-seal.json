@@ -1,0 +1,40 @@
+{
+  "status": "sealed",
+  "inputs": [
+    {
+      "stage": "source",
+      "target": "all",
+      "fingerprint": "40196acb445052be1e739cd3b159a64125d49772b5cc69bd07526189b18d52f9"
+    },
+    {
+      "stage": "script",
+      "target": "all",
+      "fingerprint": "665788aafd5ef38049e15b60ddefe97be436eea592d13d344f63763df734d3ad"
+    },
+    {
+      "stage": "storyboard",
+      "target": "01",
+      "fingerprint": "3410f84823960532ff9fb938b168fa9a1acc713d71bc40aa1374e32e0f799d77"
+    },
+    {
+      "stage": "storyboard",
+      "target": "02",
+      "fingerprint": "8036f296fe677b737729a1b2699b128d8811f0f77460616c7eaecac86d00ea76"
+    },
+    {
+      "stage": "storyboard",
+      "target": "03",
+      "fingerprint": "7ec200ee71fd91527ea7bf6e30c3f788b5a830e145a8b1f0791b07bd2335348b"
+    },
+    {
+      "stage": "storyboard",
+      "target": "04",
+      "fingerprint": "ff3636611bf06f974a124938c16ce214a1027394d8eb3adbe8d13b40f4b4fcad"
+    },
+    {
+      "stage": "storyboard",
+      "target": "05",
+      "fingerprint": "9ae10f4aca40e6ae5075f602fbaf83f3a9631391d032655af77f4695da801b53"
+    }
+  ]
+}

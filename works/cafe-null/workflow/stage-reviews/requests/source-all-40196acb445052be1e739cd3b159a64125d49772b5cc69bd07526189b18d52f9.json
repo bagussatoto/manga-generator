@@ -1,0 +1,17 @@
+{
+  "base": {
+    "stage": "source",
+    "target": "all",
+    "sourceFile": "works/cafe-null/source/original.txt",
+    "productionMode": "quality"
+  },
+  "files": [
+    "works/cafe-null/source/original.txt"
+  ],
+  "optionalFiles": [],
+  "configFile": "works/cafe-null/workflow.json",
+  "entries": {
+    "works/cafe-null/source/original.txt": "10ae03c0cb7269f9be0a0cbfd997c5da9700888e370aea5d1a76082fc0d69489"
+  },
+  "fingerprint": "40196acb445052be1e739cd3b159a64125d49772b5cc69bd07526189b18d52f9"
+}

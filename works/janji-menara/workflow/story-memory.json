@@ -1,0 +1,79 @@
+{
+  "cast": {
+    "reno": {
+      "name": "Reno",
+      "description": "Pria muda dengan rambut acak tertiup angin, tatapan tenang namun penuh penantian",
+      "faceDesign": {
+        "traits": [
+          "Mata tajam dengan sorot tenang dan tegas",
+          "Alis lurus agak tebal",
+          "Garis rahang tegas dengan hidung mancung"
+        ],
+        "reference": "works/janji-menara/assets/characters.png",
+        "settingBasis": "Pria berumur awal 20-an, terlihat dewasa dari usianya"
+      }
+    },
+    "maya": {
+      "name": "Maya",
+      "description": "Wanita muda dengan rambut sebahu tergerai, raut wajah haru dan bersungguh-sungguh",
+      "faceDesign": {
+        "traits": [
+          "Mata bulat dengan bulu mata lembut, pandangan hangat",
+          "Alis tipis melengkung anggun",
+          "Dagu runcing lembut dengan ekspresi haru"
+        ],
+        "reference": "works/janji-menara/assets/characters.png",
+        "settingBasis": "Wanita berumur awal 20-an, pembawaan tenang dan setia"
+      }
+    },
+    "narration": {
+      "kind": "caption",
+      "name": "地の文"
+    }
+  },
+  "sections": {
+    "opening": {
+      "summary": "Kabut menyelimuti kota tua saat senja di bawah menara jam kuno.",
+      "location": "Di bawah menara jam kota tua berkabut",
+      "costumes": {
+        "reno": "Mantel wol panjang berwarna gelap, kerah tegak",
+        "maya": "Mantel kain tebal dengan syal, menggenggam liontin perak"
+      },
+      "objects": {
+        "pendant": "Liontin perak peninggalan lima tahun lalu"
+      }
+    }
+  },
+  "panels": [
+    {
+      "id": "01-1",
+      "section": "opening",
+      "state": {
+        "summary": "Kabut menyelimuti kota tua saat senja di bawah menara jam kuno.",
+        "location": "Di bawah menara jam kota tua berkabut",
+        "costumes": {
+          "reno": "Mantel wol panjang berwarna gelap, kerah tegak",
+          "maya": "Mantel kain tebal dengan syal, menggenggam liontin perak"
+        },
+        "objects": {
+          "pendant": "Liontin perak peninggalan lima tahun lalu"
+        }
+      }
+    },
+    {
+      "id": "01-2",
+      "section": "opening",
+      "state": {
+        "summary": "Kabut menyelimuti kota tua saat senja di bawah menara jam kuno.",
+        "location": "Di bawah menara jam kota tua berkabut",
+        "costumes": {
+          "reno": "Mantel wol panjang berwarna gelap, kerah tegak",
+          "maya": "Mantel kain tebal dengan syal, menggenggam liontin perak"
+        },
+        "objects": {
+          "pendant": "Liontin perak peninggalan lima tahun lalu"
+        }
+      }
+    }
+  ]
+}
