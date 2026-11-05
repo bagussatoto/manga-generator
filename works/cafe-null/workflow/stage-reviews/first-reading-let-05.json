@@ -1,0 +1,14 @@
+{
+  "request": "works/cafe-null/workflow/stage-reviews/requests/first-reading-77659c05237ecb04ac3ea181168d7f66cedb06b21c06d5860d84cdfaf3a651ad.json",
+  "reviewer": {
+    "role": "subagent",
+    "task": "manga-review lettering first-reading"
+  },
+  "pages": [
+    {
+      "page": "05",
+      "scan": "Mata membaca teks komik dengan susunan balon kata dari atas ke bawah pada halaman 05.",
+      "observation": "Ukuran huruf proporsional, ekor balon mengarah tepat ke pembicara, dan teks tidak keluar dari batas balon."
+    }
+  ]
+}

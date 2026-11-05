@@ -1,0 +1,14 @@
+{
+  "stage": "lettering",
+  "target": "02",
+  "protocol": "two-phase-v1",
+  "images": [
+    {
+      "page": "02",
+      "file": "works/cafe-null/workflow/review/page-02.png",
+      "hash": "5c799a3d7197efd4207de682465888a7aed6add1b4729cbb2d377429cc6cb416"
+    }
+  ],
+  "contextHash": "93bc4a704ddfff37bfa6df2073cecdf6065d45435cc19ea2471a1b94e13531ba",
+  "fingerprint": "b909bcd7cfa0a9e0f561c8b42d8493b064860ce9fd3b0352145f58e51fbea853"
+}

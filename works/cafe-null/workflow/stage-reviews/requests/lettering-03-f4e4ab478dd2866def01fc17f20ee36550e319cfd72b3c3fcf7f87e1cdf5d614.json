@@ -1,0 +1,518 @@
+{
+  "base": {
+    "stage": "lettering",
+    "target": "03",
+    "sourceFile": "works/cafe-null/source/original.txt",
+    "readingPolicy": "unnumbered-proximity-and-scene-transitions-v2",
+    "requiredTransitions": [
+      {
+        "from": "02-3",
+        "to": "03-1"
+      },
+      {
+        "from": "03-1",
+        "to": "03-2"
+      },
+      {
+        "from": "03-2",
+        "to": "03-3"
+      },
+      {
+        "from": "03-3",
+        "to": "04-1"
+      }
+    ],
+    "script": {
+      "title": "Sinyal Misterius di Kafe Tengah Malam",
+      "cast": {
+        "rian": {
+          "name": "Rian",
+          "description": "Barista merangkap teknisi pemula, antusias terhadap sains/fiksi",
+          "faceDesign": {
+            "traits": [
+              "Mata berbinar antusias dengan sedikit lingkaran hitam lelah di bawah mata",
+              "Alis ekspresif agak berantakan",
+              "Rambut cokelat gelap acak-acakan (messy hair) membingkai wajah muda"
+            ],
+            "reference": "works/cafe-null/assets/characters.png",
+            "settingBasis": "Pria muda 22 tahun, perpaduan barista cekatan dan geek komputer"
+          }
+        },
+        "tio": {
+          "name": "Pak Tio",
+          "description": "Pemilik Café Null, pria paruh baya bijaksana dan berkepala dingin",
+          "faceDesign": {
+            "traits": [
+              "Mata teduh tenang dengan garis senyum ramah",
+              "Kumis tipis rapi di atas bibir",
+              "Rambut beruban di pelipis disisir rapi ke belakang"
+            ],
+            "reference": "works/cafe-null/assets/characters.png",
+            "settingBasis": "Pria paruh baya 50-an, mentor misterius yang paham rahasia antariksa"
+          }
+        },
+        "vane": {
+          "name": "Vane",
+          "description": "Pengelana kosmik elegan dari Nebula Orion yang mencari kehangatan kopi",
+          "faceDesign": {
+            "traits": [
+              "Fitur wajah tegas dan proporsional khas ras humanoid penjelajah",
+              "Mata tajam lelah namun berwibawa di balik HUD visor transparan",
+              "Dagu dan garis pipi ramping aristokratis"
+            ],
+            "reference": "works/cafe-null/assets/characters.png",
+            "settingBasis": "Kapten pengelana kosmik melintasi dimensi waktu"
+          }
+        },
+        "narration": {
+          "kind": "caption",
+          "name": "Narasi"
+        }
+      },
+      "style": "Monochrome hand-inked retro manga, varied line weight, detailed background contours, cozy coffee shop ambience, sci-fi screentones, no photorealism.",
+      "sections": {
+        "cafe_interior": {
+          "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+          "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+          "costumes": {
+            "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+            "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+            "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+          },
+          "objects": {
+            "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+            "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+            "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+          }
+        }
+      },
+      "pages": [
+        {
+          "id": "03",
+          "section": "cafe_interior",
+          "purpose": "Pintu terbuka, teks sinyal terjemahan terbaca, dan Rian bersiap menyeduh kopi",
+          "expectation": "Nuansa hangat kafe berpadu dengan keajaiban pesanan espresso lintas galaksi",
+          "panels": [
+            {
+              "id": "03-1",
+              "order": 1,
+              "role": "提示",
+              "beat": "Pintu kafe terbuka pelan membawa angin dingin malam",
+              "rect": [
+                24,
+                24,
+                976,
+                464
+              ],
+              "scene": "Pintu geser kayu kafe terbuka pelan, angin malam menerbangkan debu halus dan kertas nota.",
+              "speakers": {},
+              "dialogue": [],
+              "production": {
+                "moment": "Pintu terbuka memperlihatkan siluet malam berkabut",
+                "before": "Pintu tertutup rapat",
+                "after": "Layar laptop menerjemahkan kode",
+                "hands": {},
+                "props": []
+              }
+            },
+            {
+              "id": "03-2",
+              "order": 2,
+              "role": "始動",
+              "beat": "Layar laptop menampilkan terjemahan pesanan espresso",
+              "rect": [
+                24,
+                512,
+                976,
+                464
+              ],
+              "scene": "Layar laptop menampilkan baris teks otomatis: Satu espresso hangat... untuk perjalanan lintas galaksi.",
+              "speakers": {},
+              "dialogue": [
+                {
+                  "speaker": "narration",
+                  "text": "Satu espresso hangat... untuk perjalanan lintas galaksi.",
+                  "side": "right"
+                }
+              ],
+              "production": {
+                "moment": "Kursor terminal berhenti berkedip setelah teks pesanan selesai terketik",
+                "before": "Barisan kode biner melintas cepat",
+                "after": "Rian menutup laptop dengan senyum mantap",
+                "hands": {},
+                "props": []
+              }
+            },
+            {
+              "id": "03-3",
+              "order": 3,
+              "role": "決定",
+              "beat": "Rian tersenyum dan mengambil cangkir kopi",
+              "rect": [
+                24,
+                1000,
+                976,
+                464
+              ],
+              "scene": "Rian tersenyum mantap, menutup laptop dengan satu tangan dan mengambil cangkir keramik kosong.",
+              "speakers": {
+                "rian": {
+                  "anchor": [
+                    324,
+                    1250
+                  ],
+                  "face": [
+                    264,
+                    1120,
+                    120,
+                    150
+                  ]
+                }
+              },
+              "dialogue": [
+                {
+                  "speaker": "rian",
+                  "text": "Baiklah, mari kita layani pelanggan terjauh kita malam ini.",
+                  "side": "right"
+                }
+              ],
+              "production": {
+                "moment": "Rian mengangkat cangkir keramik siap meracik kopi",
+                "before": "Menutup layar laptop",
+                "after": "Menghadap mesin espresso",
+                "hands": {
+                  "rian": {
+                    "left": "Menutup engsel laptop",
+                    "right": "Mengambil cangkir dari rak"
+                  }
+                },
+                "props": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "boundaryContext": [
+      {
+        "id": "02",
+        "section": "cafe_interior",
+        "purpose": "Interferensi elektronik terjadi dan Pak Tio merespons dengan tenang",
+        "expectation": "Pembaca memahami bahwa kafe ini bukan kafe biasa dan Pak Tio punya pengetahuan rahasia",
+        "panels": [
+          {
+            "id": "02-1",
+            "order": 1,
+            "role": "始動",
+            "beat": "Lampu gantung kafe berkedip dan speaker berdengung",
+            "rect": [
+              24,
+              24,
+              976,
+              464
+            ],
+            "scene": "Lampu gantung kafe berkedip cepat dengan percikan listrik kecil di sekitar speaker.",
+            "speakers": {},
+            "dialogue": [],
+            "production": {
+              "moment": "Lampu gantung berkedip cepat akibat distorsi gelombang elektromagnetik",
+              "before": "Cahaya lampu stabil kekuningan",
+              "after": "Kopi di meja ikut bergetar",
+              "hands": {},
+              "props": []
+            }
+          },
+          {
+            "id": "02-2",
+            "order": 2,
+            "role": "反応",
+            "beat": "Pak Tio mengelap gelas dengan santai dan bijak",
+            "rect": [
+              24,
+              512,
+              976,
+              464
+            ],
+            "scene": "Pak Tio mengelap gelas kaca dengan tenang di balik konter sementara kopi di dekatnya beriak kecil.",
+            "speakers": {
+              "tio": {
+                "anchor": [
+                  324,
+                  762
+                ],
+                "face": [
+                  264,
+                  632,
+                  120,
+                  150
+                ]
+              }
+            },
+            "dialogue": [
+              {
+                "speaker": "tio",
+                "text": "Sepertinya pelanggan istimewa kita malam ini datang lebih cepat, Rian.",
+                "side": "right"
+              }
+            ],
+            "production": {
+              "moment": "Pak Tio mengelap gelas kaca sambil tersenyum tenang",
+              "before": "Menyeka debu meja konter",
+              "after": "Meletakkan lap dan menatap ke arah pintu",
+              "hands": {
+                "tio": {
+                  "left": "Memegang dasar gelas kaca",
+                  "right": "Mengelap bagian dalam gelas dengan kain"
+                }
+              },
+              "props": []
+            }
+          },
+          {
+            "id": "02-3",
+            "order": 3,
+            "role": "反応",
+            "beat": "Rian menoleh tegang ke arah pintu masuk",
+            "rect": [
+              24,
+              1000,
+              976,
+              464
+            ],
+            "scene": "Rian menoleh cepat ke pintu masuk kafe dengan ekspresi tegang bercampur penasaran.",
+            "speakers": {
+              "rian": {
+                "anchor": [
+                  324,
+                  1250
+                ],
+                "face": [
+                  264,
+                  1120,
+                  120,
+                  150
+                ]
+              }
+            },
+            "dialogue": [
+              {
+                "speaker": "rian",
+                "text": "Jangan bilang... sinyal itu bukan dari satelit bumi?",
+                "side": "right"
+              }
+            ],
+            "production": {
+              "moment": "Rian berbalik cepat menatap pintu kafe",
+              "before": "Menatap layar monitor laptop",
+              "after": "Melihat pintu yang mulai bergeser terbuka",
+              "hands": {
+                "rian": {
+                  "left": "Mengepal di atas meja",
+                  "right": "Menunjuk ke arah layar"
+                }
+              },
+              "props": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "section": "cafe_interior",
+        "purpose": "Sosok pengelana antariksa (Vane) melangkah masuk ke dalam kafe",
+        "expectation": "Kekaguman visual melihat sosok tamu kosmik di dalam kafe kecil yang nyaman",
+        "panels": [
+          {
+            "id": "04-1",
+            "order": 1,
+            "role": "提示",
+            "beat": "Lampu luar berubah ungu kebiruan dan siluet sosok misterius berdiri di pintu",
+            "rect": [
+              24,
+              24,
+              976,
+              464
+            ],
+            "scene": "Interior kafe hening saat lampu neon luar membiaskan rona ungu kosmik lembut di ambang pintu.",
+            "speakers": {},
+            "dialogue": [
+              {
+                "speaker": "narration",
+                "text": "Pukul 02:05 pagi. Batas antara dimensi lokal dan kosmik perlahan melebur.",
+                "side": "right"
+              }
+            ],
+            "production": {
+              "moment": "Cahaya aurora lembut memantul di kaca jendela",
+              "before": "Malam gelap biasa",
+              "after": "Tamu kosmik melangkahkan kaki",
+              "hands": {},
+              "props": []
+            }
+          },
+          {
+            "id": "04-2",
+            "order": 2,
+            "role": "始動",
+            "beat": "Vane melangkah masuk dengan jubah kosmik dan ransel penjelajah",
+            "rect": [
+              24,
+              512,
+              976,
+              464
+            ],
+            "scene": "Vane melangkah anggun ke dalam kafe dengan jubah kosmik memantulkan starlight dan ransel penjelajah.",
+            "speakers": {
+              "tio": {
+                "anchor": [
+                  324,
+                  762
+                ],
+                "face": [
+                  264,
+                  632,
+                  120,
+                  150
+                ]
+              }
+            },
+            "dialogue": [
+              {
+                "speaker": "tio",
+                "text": "Selamat datang di Café Null. Silakan pilih tempat duduk yang nyaman.",
+                "side": "right"
+              }
+            ],
+            "production": {
+              "moment": "Vane menjejakkan kaki ke lantai kayu kafe yang hangat",
+              "before": "Berdiri di ambang pintu",
+              "after": "Menuju kursi meja bar",
+              "hands": {
+                "tio": {
+                  "left": "Terbuka menyambut ramah",
+                  "right": "Menunjuk sopan ke kursi bar"
+                }
+              },
+              "props": []
+            }
+          },
+          {
+            "id": "04-3",
+            "order": 3,
+            "role": "反応",
+            "beat": "Rian menatap takjub penuh antusias",
+            "rect": [
+              24,
+              1000,
+              976,
+              464
+            ],
+            "scene": "Rian berdiri terpana di balik konter, keringat dingin tipis tapi mata berbinar antusias.",
+            "speakers": {
+              "rian": {
+                "anchor": [
+                  324,
+                  1250
+                ],
+                "face": [
+                  264,
+                  1120,
+                  120,
+                  150
+                ]
+              }
+            },
+            "dialogue": [
+              {
+                "speaker": "rian",
+                "text": "Dia benar-benar datang... Pesanan dari luar tata surya, secara langsung!",
+                "side": "right"
+              }
+            ],
+            "production": {
+              "moment": "Rian menatap tamu dengan rasa kagum yang tak tertahan",
+              "before": "Memegang cangkir kosong",
+              "after": "Mempersiapkan tamper kopi",
+              "hands": {
+                "rian": {
+                  "left": "Menggenggam cangkir keramik",
+                  "right": "Menempel di dada takjub"
+                }
+              },
+              "props": []
+            }
+          }
+        ]
+      }
+    ],
+    "productionMode": "quality",
+    "readingProtocol": "two-phase-v1",
+    "firstReading": {
+      "fingerprint": "eeeaa72b9a74308230876147c767cc8c05c31095fd300f7a5325b77c11a326ba",
+      "reviewer": {
+        "role": "subagent",
+        "task": "manga-review lettering first-reading"
+      },
+      "pages": [
+        {
+          "page": "03",
+          "scan": "Mata membaca teks komik dengan susunan balon kata dari atas ke bawah pada halaman 03.",
+          "observation": "Ukuran huruf proporsional, ekor balon mengarah tepat ke pembicara, dan teks tidak keluar dari batas balon."
+        }
+      ]
+    },
+    "firstReadingHash": "987f5b1e1cca8c26ab2aa97e6c906508f0f6b84c3ee340ecc8607e9b7da827d5"
+  },
+  "files": [
+    "works/cafe-null/source/original.txt",
+    "works/cafe-null/workflow/storyboards/page-02.svg",
+    "works/cafe-null/workflow/storyboards/page-04.svg",
+    "works/cafe-null/assets/characters.png",
+    "works/cafe-null/workflow/storyboards/page-03.svg",
+    "works/cafe-null/assets/panels/03-1.png",
+    "works/cafe-null/assets/panels/03-2.png",
+    "works/cafe-null/assets/panels/03-3.png",
+    "works/cafe-null/workflow/review/page-03.png",
+    "works/cafe-null/workflow/stage-reviews/first-reading/lettering-03-eeeaa72b9a74308230876147c767cc8c05c31095fd300f7a5325b77c11a326ba.json",
+    "works/cafe-null/workflow/review/page-02.png",
+    "works/cafe-null/assets/panels/02-1.png",
+    "works/cafe-null/assets/panels/02-2.png",
+    "works/cafe-null/assets/panels/02-3.png",
+    "works/cafe-null/workflow/review/page-04.png",
+    "works/cafe-null/assets/panels/04-1.png",
+    "works/cafe-null/assets/panels/04-2.png",
+    "works/cafe-null/assets/panels/04-3.png"
+  ],
+  "optionalFiles": [
+    "works/cafe-null/workflow/review/page-02.png",
+    "works/cafe-null/assets/panels/02-1.png",
+    "works/cafe-null/assets/panels/02-2.png",
+    "works/cafe-null/assets/panels/02-3.png",
+    "works/cafe-null/workflow/review/page-04.png",
+    "works/cafe-null/assets/panels/04-1.png",
+    "works/cafe-null/assets/panels/04-2.png",
+    "works/cafe-null/assets/panels/04-3.png"
+  ],
+  "configFile": "works/cafe-null/workflow.json",
+  "entries": {
+    "works/cafe-null/source/original.txt": "10ae03c0cb7269f9be0a0cbfd997c5da9700888e370aea5d1a76082fc0d69489",
+    "works/cafe-null/workflow/storyboards/page-02.svg": "b513adc06a39a120c9003825d22e7207cb3bdcbd1f12006ab7b586194c083033",
+    "works/cafe-null/workflow/storyboards/page-04.svg": "95151e29b6fce1f5e28f770b1390cc11958475770b18740db3e09bf761d1a548",
+    "works/cafe-null/assets/characters.png": "642bbadaf9ede0f151edaf44faa24d5e6390cf885a2d32b788a77e35682bf54c",
+    "works/cafe-null/workflow/storyboards/page-03.svg": "58dfa5ce9990682a15b361ade08a23ebd3ba8f4332601c22171bb3d2288a44ef",
+    "works/cafe-null/assets/panels/03-1.png": "ec3d4b4d2d5ef2ab3c36d211d96020bcaf85122eb8b09a63c98202d83d5ffe5a",
+    "works/cafe-null/assets/panels/03-2.png": "5714d5ee989344f1d50941af419e37317e201aad54a889c4aec4b22c5b82bf58",
+    "works/cafe-null/assets/panels/03-3.png": "ec3d4b4d2d5ef2ab3c36d211d96020bcaf85122eb8b09a63c98202d83d5ffe5a",
+    "works/cafe-null/workflow/review/page-03.png": "bef0762b48631784ee469e9aeaa6d8d22deb5c7093082f4201534917693c7dec",
+    "works/cafe-null/workflow/stage-reviews/first-reading/lettering-03-eeeaa72b9a74308230876147c767cc8c05c31095fd300f7a5325b77c11a326ba.json": "987f5b1e1cca8c26ab2aa97e6c906508f0f6b84c3ee340ecc8607e9b7da827d5",
+    "works/cafe-null/workflow/review/page-02.png": "5c799a3d7197efd4207de682465888a7aed6add1b4729cbb2d377429cc6cb416",
+    "works/cafe-null/assets/panels/02-1.png": "ec3d4b4d2d5ef2ab3c36d211d96020bcaf85122eb8b09a63c98202d83d5ffe5a",
+    "works/cafe-null/assets/panels/02-2.png": "5714d5ee989344f1d50941af419e37317e201aad54a889c4aec4b22c5b82bf58",
+    "works/cafe-null/assets/panels/02-3.png": "ec3d4b4d2d5ef2ab3c36d211d96020bcaf85122eb8b09a63c98202d83d5ffe5a",
+    "works/cafe-null/workflow/review/page-04.png": "659c9dbd80c47ffed1ee42310cb3ef7aaeaa44f7846a13a32d0bde28248f5492",
+    "works/cafe-null/assets/panels/04-1.png": "ec3d4b4d2d5ef2ab3c36d211d96020bcaf85122eb8b09a63c98202d83d5ffe5a",
+    "works/cafe-null/assets/panels/04-2.png": "5714d5ee989344f1d50941af419e37317e201aad54a889c4aec4b22c5b82bf58",
+    "works/cafe-null/assets/panels/04-3.png": "ec3d4b4d2d5ef2ab3c36d211d96020bcaf85122eb8b09a63c98202d83d5ffe5a"
+  },
+  "fingerprint": "f4e4ab478dd2866def01fc17f20ee36550e319cfd72b3c3fcf7f87e1cdf5d614"
+}

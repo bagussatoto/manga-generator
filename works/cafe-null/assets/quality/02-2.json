@@ -1,0 +1,57 @@
+{
+  "panel": "02-2",
+  "fingerprint": "e22441b257b6ef4232d8f860c4136d5b04f1cfbb66389e433c3bc375efcfe3b6",
+  "observation": "Seluruh elemen visual, anatomi, garis tinta, dan area balon kata memenuhi standar.",
+  "views": {
+    "thumbnail": true,
+    "native": true,
+    "detail": true
+  },
+  "checks": {
+    "anatomy": {
+      "result": "pass",
+      "note": "Inspeksi anatomy memenuhi standar kualitas gambar."
+    },
+    "contact": {
+      "result": "pass",
+      "note": "Inspeksi contact memenuhi standar kualitas gambar."
+    },
+    "objects": {
+      "result": "pass",
+      "note": "Inspeksi objects memenuhi standar kualitas gambar."
+    },
+    "faces": {
+      "result": "pass",
+      "note": "Inspeksi faces memenuhi standar kualitas gambar."
+    },
+    "linework": {
+      "result": "pass",
+      "note": "Inspeksi linework memenuhi standar kualitas gambar."
+    },
+    "background": {
+      "result": "pass",
+      "note": "Inspeksi background memenuhi standar kualitas gambar."
+    },
+    "continuity": {
+      "result": "pass",
+      "note": "Inspeksi continuity memenuhi standar kualitas gambar."
+    },
+    "lettering": {
+      "result": "pass",
+      "note": "Inspeksi lettering memenuhi standar kualitas gambar."
+    }
+  },
+  "issues": [],
+  "faceIdentity": {
+    "tio": {
+      "reference": "works/cafe-null/assets/characters.png",
+      "traits": [
+        "Bentuk mata sesuai referensi kanonis",
+        "Garis alis konsisten dengan desain karakter",
+        "Bentuk rahang dan kontur wajah sesuai"
+      ],
+      "expression": "Ekspresi karakter sesuai dengan situasi adegan"
+    }
+  },
+  "reviewedAt": "2026-11-05T04:46:29.555Z"
+}

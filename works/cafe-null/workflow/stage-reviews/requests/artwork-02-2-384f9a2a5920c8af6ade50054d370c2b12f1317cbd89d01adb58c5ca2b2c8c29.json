@@ -1,0 +1,212 @@
+{
+  "base": {
+    "stage": "artwork",
+    "target": "02-2",
+    "sourceFile": "works/cafe-null/source/original.txt",
+    "script": {
+      "title": "Sinyal Misterius di Kafe Tengah Malam",
+      "cast": {
+        "rian": {
+          "name": "Rian",
+          "description": "Barista merangkap teknisi pemula, antusias terhadap sains/fiksi",
+          "faceDesign": {
+            "traits": [
+              "Mata berbinar antusias dengan sedikit lingkaran hitam lelah di bawah mata",
+              "Alis ekspresif agak berantakan",
+              "Rambut cokelat gelap acak-acakan (messy hair) membingkai wajah muda"
+            ],
+            "reference": "works/cafe-null/assets/characters.png",
+            "settingBasis": "Pria muda 22 tahun, perpaduan barista cekatan dan geek komputer"
+          }
+        },
+        "tio": {
+          "name": "Pak Tio",
+          "description": "Pemilik Café Null, pria paruh baya bijaksana dan berkepala dingin",
+          "faceDesign": {
+            "traits": [
+              "Mata teduh tenang dengan garis senyum ramah",
+              "Kumis tipis rapi di atas bibir",
+              "Rambut beruban di pelipis disisir rapi ke belakang"
+            ],
+            "reference": "works/cafe-null/assets/characters.png",
+            "settingBasis": "Pria paruh baya 50-an, mentor misterius yang paham rahasia antariksa"
+          }
+        },
+        "vane": {
+          "name": "Vane",
+          "description": "Pengelana kosmik elegan dari Nebula Orion yang mencari kehangatan kopi",
+          "faceDesign": {
+            "traits": [
+              "Fitur wajah tegas dan proporsional khas ras humanoid penjelajah",
+              "Mata tajam lelah namun berwibawa di balik HUD visor transparan",
+              "Dagu dan garis pipi ramping aristokratis"
+            ],
+            "reference": "works/cafe-null/assets/characters.png",
+            "settingBasis": "Kapten pengelana kosmik melintasi dimensi waktu"
+          }
+        },
+        "narration": {
+          "kind": "caption",
+          "name": "Narasi"
+        }
+      },
+      "style": "Monochrome hand-inked retro manga, varied line weight, detailed background contours, cozy coffee shop ambience, sci-fi screentones, no photorealism.",
+      "sections": {
+        "cafe_interior": {
+          "summary": "Suasana interior kafe retro Café Null pada pukul 02:00 pagi di sudut kota kecil.",
+          "location": "Café Null, sudut jalan kota kecil berhawa dingin",
+          "costumes": {
+            "rian": "Hoodie longgar gelap, apron barista kanvas cokelat, rambut messy",
+            "tio": "Kemeja putih lengan digulung, vest cokelat tua, apron bersih, kumis rapi",
+            "vane": "Jubah pengelana luar angkasa berkilau lembut, ransel usang, HUD visor transparan di dahi"
+          },
+          "objects": {
+            "laptop": "Laptop tua penuh stiker dengan terminal sinyal gelombang",
+            "espresso_machine": "Mesin espresso klasik berbahan kuningan/krom retro",
+            "crystal_coin": "Koin kristal bercahaya biru berdenyut lembut"
+          }
+        }
+      },
+      "pages": [
+        {
+          "id": "02",
+          "section": "cafe_interior",
+          "purpose": "Interferensi elektronik terjadi dan Pak Tio merespons dengan tenang",
+          "expectation": "Pembaca memahami bahwa kafe ini bukan kafe biasa dan Pak Tio punya pengetahuan rahasia",
+          "panels": [
+            {
+              "id": "02-1",
+              "order": 1,
+              "role": "始動",
+              "beat": "Lampu gantung kafe berkedip dan speaker berdengung",
+              "rect": [
+                24,
+                24,
+                976,
+                464
+              ],
+              "scene": "Lampu gantung kafe berkedip cepat dengan percikan listrik kecil di sekitar speaker.",
+              "speakers": {},
+              "dialogue": [],
+              "production": {
+                "moment": "Lampu gantung berkedip cepat akibat distorsi gelombang elektromagnetik",
+                "before": "Cahaya lampu stabil kekuningan",
+                "after": "Kopi di meja ikut bergetar",
+                "hands": {},
+                "props": []
+              }
+            },
+            {
+              "id": "02-2",
+              "order": 2,
+              "role": "反応",
+              "beat": "Pak Tio mengelap gelas dengan santai dan bijak",
+              "rect": [
+                24,
+                512,
+                976,
+                464
+              ],
+              "scene": "Pak Tio mengelap gelas kaca dengan tenang di balik konter sementara kopi di dekatnya beriak kecil.",
+              "speakers": {
+                "tio": {
+                  "anchor": [
+                    324,
+                    762
+                  ],
+                  "face": [
+                    264,
+                    632,
+                    120,
+                    150
+                  ]
+                }
+              },
+              "dialogue": [
+                {
+                  "speaker": "tio",
+                  "text": "Sepertinya pelanggan istimewa kita malam ini datang lebih cepat, Rian.",
+                  "side": "right"
+                }
+              ],
+              "production": {
+                "moment": "Pak Tio mengelap gelas kaca sambil tersenyum tenang",
+                "before": "Menyeka debu meja konter",
+                "after": "Meletakkan lap dan menatap ke arah pintu",
+                "hands": {
+                  "tio": {
+                    "left": "Memegang dasar gelas kaca",
+                    "right": "Mengelap bagian dalam gelas dengan kain"
+                  }
+                },
+                "props": []
+              }
+            },
+            {
+              "id": "02-3",
+              "order": 3,
+              "role": "反応",
+              "beat": "Rian menoleh tegang ke arah pintu masuk",
+              "rect": [
+                24,
+                1000,
+                976,
+                464
+              ],
+              "scene": "Rian menoleh cepat ke pintu masuk kafe dengan ekspresi tegang bercampur penasaran.",
+              "speakers": {
+                "rian": {
+                  "anchor": [
+                    324,
+                    1250
+                  ],
+                  "face": [
+                    264,
+                    1120,
+                    120,
+                    150
+                  ]
+                }
+              },
+              "dialogue": [
+                {
+                  "speaker": "rian",
+                  "text": "Jangan bilang... sinyal itu bukan dari satelit bumi?",
+                  "side": "right"
+                }
+              ],
+              "production": {
+                "moment": "Rian berbalik cepat menatap pintu kafe",
+                "before": "Menatap layar monitor laptop",
+                "after": "Melihat pintu yang mulai bergeser terbuka",
+                "hands": {
+                  "rian": {
+                    "left": "Mengepal di atas meja",
+                    "right": "Menunjuk ke arah layar"
+                  }
+                },
+                "props": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "productionMode": "quality"
+  },
+  "files": [
+    "works/cafe-null/source/original.txt",
+    "works/cafe-null/assets/characters.png",
+    "works/cafe-null/workflow/storyboards/page-02.svg",
+    "works/cafe-null/assets/panels/02-2.png"
+  ],
+  "optionalFiles": [],
+  "configFile": "works/cafe-null/workflow.json",
+  "entries": {
+    "works/cafe-null/source/original.txt": "10ae03c0cb7269f9be0a0cbfd997c5da9700888e370aea5d1a76082fc0d69489",
+    "works/cafe-null/assets/characters.png": "642bbadaf9ede0f151edaf44faa24d5e6390cf885a2d32b788a77e35682bf54c",
+    "works/cafe-null/workflow/storyboards/page-02.svg": "b513adc06a39a120c9003825d22e7207cb3bdcbd1f12006ab7b586194c083033",
+    "works/cafe-null/assets/panels/02-2.png": "5714d5ee989344f1d50941af419e37317e201aad54a889c4aec4b22c5b82bf58"
+  },
+  "fingerprint": "384f9a2a5920c8af6ade50054d370c2b12f1317cbd89d01adb58c5ca2b2c8c29"
+}

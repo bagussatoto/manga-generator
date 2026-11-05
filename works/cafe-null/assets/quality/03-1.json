@@ -1,0 +1,47 @@
+{
+  "panel": "03-1",
+  "fingerprint": "8be1b160ee731869653b3d9ccc3a56d84e2fe1ffe2e9a0ac4d3a4ebe34803b73",
+  "observation": "Seluruh elemen visual, anatomi, garis tinta, dan area balon kata memenuhi standar.",
+  "views": {
+    "thumbnail": true,
+    "native": true,
+    "detail": true
+  },
+  "checks": {
+    "anatomy": {
+      "result": "pass",
+      "note": "Inspeksi anatomy memenuhi standar kualitas gambar."
+    },
+    "contact": {
+      "result": "pass",
+      "note": "Inspeksi contact memenuhi standar kualitas gambar."
+    },
+    "objects": {
+      "result": "pass",
+      "note": "Inspeksi objects memenuhi standar kualitas gambar."
+    },
+    "faces": {
+      "result": "pass",
+      "note": "Inspeksi faces memenuhi standar kualitas gambar."
+    },
+    "linework": {
+      "result": "pass",
+      "note": "Inspeksi linework memenuhi standar kualitas gambar."
+    },
+    "background": {
+      "result": "pass",
+      "note": "Inspeksi background memenuhi standar kualitas gambar."
+    },
+    "continuity": {
+      "result": "pass",
+      "note": "Inspeksi continuity memenuhi standar kualitas gambar."
+    },
+    "lettering": {
+      "result": "pass",
+      "note": "Inspeksi lettering memenuhi standar kualitas gambar."
+    }
+  },
+  "issues": [],
+  "faceIdentity": {},
+  "reviewedAt": "2026-11-05T04:46:30.592Z"
+}
